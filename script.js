@@ -1,12 +1,14 @@
+let bold = document.querySelectorAll("strong")
 function highlight() {
-    //Write your code here
-
-
+    for (let i of bold) {
+    	i.style.color = "green";
+    }
+  
 }
 
 
 function return_normal() {
     //Write your code here
-
+   bold.style.color = "black";
     
 }
