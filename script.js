@@ -8,7 +8,8 @@ function highlight() {
 
 
 function return_normal() {
-    //Write your code here
-   bold.style.color = "black";
+       for (let i of bold) {
+    	i.style.color = "black";
+    }
     
 }
